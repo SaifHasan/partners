@@ -1,0 +1,72 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    //CSS
+}
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .card-section h2 {
+        font-weight: 700;
+        color: rgb(95, 103, 255);
+        font-size: 52px;
+        margin-bottom: 41px;
+        margin-right: 73px;
+    }
+    .Become-our-partner .inner-heading h2 {
+        font-weight: 600;
+        margin-bottom: 26px;
+        text-align: center;
+    }
+    .Become-our-partner .become-card-content {
+        text-align: center;
+    }
+    .Become-our-partner .become-card-content p {
+        color: rgb(102, 102, 102);
+        font-size: 15px;
+        padding: 0px 45px;
+    }
+    .Become-our-partner a {
+        text-align: center;
+        margin-left: 33%;
+        margin-top: 28px;
+    }
+    .footer-section .copyr8 p {
+        color: white;
+        /* text-align: center; */
+        /* padding: 0px 15px; */
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .partners-section .inner-part h1 {
+        font-weight: 700;
+        color: rgb(95, 103, 255);
+        font-size: 48px;
+        margin-left: 56px;
+        margin-bottom: 41px;
+    }
+    .why-us .inner-headline h2 {
+        margin-bottom: 34px;
+        font-weight: 700;
+        margin-left: 158px;
+        /* text-align: center; */
+    }
+}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    //CSS
+}

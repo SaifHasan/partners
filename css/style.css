@@ -1,0 +1,282 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Poppins, sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.header-section {
+    border-bottom: 1px solid rgba(95, 103, 255, 0.36);
+}
+
+.navbar-brand {}
+
+.navbar-brand img {
+    width: 135px;
+}
+
+.header-section .bg-light {
+    background-color: rgba(248, 249, 250, 0) !important;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    padding: 9px 17px;
+    font-weight: 700;
+    font-size: 17px;
+    transition: all 0.2s ease 0s;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(70, 76, 197);
+}
+
+.header-section .nav-link li:last-child {
+    color: aqua !important;
+}
+
+.btn-info {
+    color: white !important;
+    padding: 8px 14px !important;
+    background: rgb(95, 103, 255) !important;
+}
+
+.partners-section {}
+
+.partners-section .inner-partner-sec {
+    background: rgb(95, 103, 255);
+    height: 100px;
+    margin: 54px 44px 51px -21px;
+    border-radius: 8px;
+}
+
+.partners-section .inner-partner-sec h1 {
+    text-align: center;
+    font-size: 59px;
+    font-weight: 600;
+    padding-top: 13px;
+    margin-left: 84px;
+    color: white;
+}
+
+.partners-section .inner-part {}
+
+.partners-section .inner-part h1 {
+    font-weight: 700;
+    color: rgb(95, 103, 255);
+    font-size: 61px;
+    margin-left: 22px;
+    margin-bottom: 41px;
+}
+
+.why-us {
+    padding: 20px 0px;
+}
+
+.why-us .inner-headline {}
+
+.why-us .inner-headline h2 {
+    margin-bottom: 34px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.why-us .inner-card {
+    box-shadow: rgba(95, 103, 255, 0.17) 5px 4px 17px 1px;
+    padding: 19px;
+}
+
+.why-us .inner-card img {
+    width: 100%;
+}
+
+.why-us .inner-card span {
+    text-align: center;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.why-us .inner-card p {
+    text-align: center;
+    color: rgb(102, 102, 102);
+    font-weight: 500;
+}
+
+.join-us {
+    padding: 62px 0px;
+}
+
+.join-us .inner-joinus1 {
+    box-shadow: rgba(95, 103, 255, 0.17) 5px 4px 17px 1px;
+}
+
+.join-us .inner-joinus1 img {
+    width: 100%;
+    padding: 37px;
+}
+
+.join-us .inner-joinus2 {
+    box-shadow: rgba(95, 103, 255, 0.17) 5px 4px 17px 1px;
+    padding: 38px;
+}
+
+.join-us .inner-joinus2 span {
+    font-size: 34px;
+    font-weight: 700;
+    color: rgb(95, 103, 255);
+    margin-bottom: 16px;
+    display: block;
+}
+
+.join-us .inner-joinus2 h3 {
+    font-size: 26px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.join-us .inner-joinus2 p {
+    font-weight: 600;
+    color: rgb(102, 102, 102);
+}
+
+.card-section {
+    padding: 35px 0px;
+}
+
+.card-section .inner-headline {}
+
+.card-section h2 {
+    font-weight: 700;
+    color: rgb(95, 103, 255);
+    font-size: 61px;
+    margin-bottom: 41px;
+}
+
+.card-section .inner-img {
+    border-top: 6px solid rgb(95, 103, 255);
+    box-shadow: rgba(95, 103, 255, 0.17) 5px 4px 17px 1px;
+    padding: 30px;
+    text-align: center;
+}
+
+.card-section .inner-img img {
+    height: 60px;
+}
+
+.img-fluid {
+    max-width: 100% !important;
+}
+
+.card-section .inner-card span {
+    text-align: center;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.card-section .inner-card p {
+    text-align: center;
+    color: rgb(102, 102, 102);
+    font-weight: 500;
+}
+
+.card-section .card-details {
+    padding-bottom: 45px;
+}
+
+.Become-our-partner {}
+
+.Become-our-partner .inner-heading {}
+
+.Become-our-partner .inner-heading h2 {
+    font-weight: 600;
+    margin-bottom: 26px;
+}
+
+.Become-our-partner .become-card-content {}
+
+.Become-our-partner .become-card-content span {
+    font-size: 83px;
+    font-weight: 700;
+    color: rgb(95, 103, 255);
+}
+
+.Become-our-partner .become-card-content h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Become-our-partner .become-card-content p {
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+}
+
+.Become-our-partner a {
+    text-align: center;
+    margin-left: 43%;
+    margin-top: 28px;
+}
+
+.footer-section {
+    padding: 75px 0px 30px 0px;
+    background: #fffff;
+    background-color: #333333;
+    margin-top: 68px;
+}
+
+.footer-section .inner-footer {
+    margin-bottom: 46px;
+}
+
+.footer-section .inner-footer ul li span {
+    color: white;
+    font-weight: 700;
+    font-size: 21px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-section .inner-footer ul {}
+
+.footer-section .inner-footer ul li {}
+
+.footer-section .inner-footer ul li a {
+    color: white;
+    line-height: 1.8;
+}
+
+.footer-section .copyr8 {
+    border-top: 1px solid #ece3e329;
+    /* text-align: center; */
+    padding-top: 20px;
+}
+
+.footer-section .copyr8 p {
+    color: white;
+    /* text-align: center; */
+}
